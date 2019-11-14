@@ -14,7 +14,7 @@ class App extends React.Component {
     return (
       <div className='app-content'>
         <h1>Hi Ninjas</h1>
-      <p>{state.name}</p>
+      <p>{this.state.name}</p>
       </div>
     )
   }
